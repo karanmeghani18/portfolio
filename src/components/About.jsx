@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div id="about" className="text-white  gap-[20px] flex flex-col m-20 ">
+    <div id="about" className="text-white  gap-[20px] flex flex-col m-[7%] ">
       <h2 id="about">About</h2>
       <p className="text-[#cbcbcb] ">
         Tech-savvy recent graduate with a strong foundation in various
@@ -35,7 +35,7 @@ export const About = () => {
       </div>
 
       <h2 id="experience">Experience</h2>
-      <div id="experience-section" className="flex flex-col px-4 py-16">
+      <div id="experience-section" className="flex flex-col  py-16">
         <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">June 2022 - August 2023</h2>
           <div>
@@ -82,7 +82,7 @@ export const About = () => {
       </div>
 
       <h2 id="education">Education</h2>
-      <div id="experience-section" className="flex flex-col px-4 py-16">
+      <div id="experience-section" className="flex flex-col  py-16">
         <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">September 2022 - August 2023</h2>
           <div>

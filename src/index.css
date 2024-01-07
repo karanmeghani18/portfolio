@@ -41,7 +41,7 @@ color: var(--text-color);
 }
         
 #experience-item{
-  margin: 8px;
+  /* margin: 8px; */
 }
 
 #about-technologies{
