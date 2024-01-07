@@ -8,7 +8,7 @@ letter-spacing: 1px;
 font-weight: 300;
 background-color: var(--black-color);
 color: var(--text-color);
-transition: all .2s ease;
+/* transition: all .2s ease; */
 }
 * {
     margin: 0;
@@ -20,6 +20,9 @@ transition: all .2s ease;
 
     h2{
       font-weight: 700;
+    }
+    #skillset{
+      flex-wrap: wrap;
     }
 #skillset p {
   margin: 5px;
@@ -56,4 +59,39 @@ transition: all .2s ease;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+.navBarItem {
+  /* Set default padding */
+  padding: 10px; /* Adjust this value as needed */
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust padding for smaller screens */
+  .navBarItem {
+    padding: 8px; /* Adjust this value as needed for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjust padding for even smaller screens */
+  .navBarItem {
+    padding: 6px; /* Adjust this value as needed for smaller screens */
+  }
+}
+
+.selectedNavBarItem{
+  padding: 10px;
+  display: inline;
+  background-color: #5c5c5c40;
+  border-radius: 18px;
+  transition: background-color 0.9s ease-in-out ; /* Define the transition property */
+
+}
+
+.animate-on-scroll {
+  opacity: 0; /* Initially hide the element */
+  transition: opacity 0.5s ease-in-out; /* Apply transition effect */
+}
+.show-on-scroll {
+  opacity: 1; /* Show the element when scrolled into view */
 }

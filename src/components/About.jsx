@@ -1,10 +1,9 @@
 import React from "react";
 
-
 export const About = () => {
   return (
     <div id="about" className="text-white  gap-[20px] flex flex-col m-20 ">
-      <h2>About</h2>
+      <h2 id="about">About</h2>
       <p className="text-[#cbcbcb] ">
         Tech-savvy recent graduate with a strong foundation in various
         programming languages and frameworks. Leveraging 3+ years of hands-on
@@ -37,7 +36,7 @@ export const About = () => {
 
       <h2 id="experience">Experience</h2>
       <div id="experience-section" className="flex flex-col px-4 py-16">
-        <div id="experience-item" className="flex flex-row">
+        <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">June 2022 - August 2023</h2>
           <div>
             <h2 className="font-semibold text-white">
@@ -56,7 +55,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div id="experience-item" className="flex flex-row">
+        <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">July 2020 - May 2022</h2>
           <div>
             <h2 className="font-semibold text-white">
@@ -84,7 +83,7 @@ export const About = () => {
 
       <h2 id="education">Education</h2>
       <div id="experience-section" className="flex flex-col px-4 py-16">
-        <div id="experience-item" className="flex flex-row">
+        <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">September 2022 - August 2023</h2>
           <div>
             <h2 className="font-semibold text-white">
@@ -106,7 +105,7 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <div id="experience-item" className="flex flex-row">
+        <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">July 2020 - May 2022</h2>
           <div>
             <h2 className="font-semibold text-white">
@@ -127,7 +126,7 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <div id="experience-item" className="flex flex-row">
+        <div id="experience-item" className="flex flex-row flex-wrap">
           <h2 id="experience-date">May 2018 - June 2021</h2>
           <div>
             <h2 className="font-semibold text-white">
@@ -150,8 +149,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-  
-
     </div>
   );
 };
