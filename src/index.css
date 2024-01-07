@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+letter-spacing: 1px;
+font-weight: 300;
+background-color: var(--black-color);
+color: var(--text-color);
+transition: all .2s ease;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #cbcbcb;
+    
+    }
+
+    h2{
+      font-weight: 700;
+    }
+#skillset p {
+  margin: 5px;
+  
+  padding: 8px;
+  color: #cbcbcb;
+  border-radius: 2px;
+  border: 1px solid #333333;
+  background-color: #232323;
+  box-shadow: 0 2px 3px #0000003d;
+}
+
+#experience-date{
+  width: 200px;
+  margin-right: 2px;
+}
+        
+#experience-item{
+  margin: 8px;
+}
+
+#about-technologies{
+  display: flex;
+}
+#project-card{
+  padding: 30px;
+  display: flex;
+  border: 1px solid #2d2d2d;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #0000003d;
+  transition: border .2s ease;
+  background-color: #1c1c1c;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
