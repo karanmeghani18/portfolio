@@ -1,6 +1,5 @@
 import React from "react";
 import Typed from "react-typed";
-import hero from "../assets/hero.webp";
 
 const Hero = () => {
   return (
