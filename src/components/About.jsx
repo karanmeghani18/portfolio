@@ -40,7 +40,7 @@ export const About = () => {
       <div className="container">
         <h1 id="experience">Experience</h1>
         <div id="experience-section" className="flex flex-col">
-          <div id="experience-item" >
+          <div id="experience-item">
             <h2 id="experience-date">June 2022 - August 2023</h2>
             <div>
               <h2>Piebar - Bartender / Server </h2>
@@ -58,25 +58,27 @@ export const About = () => {
             </div>
           </div>
 
-          <div id="experience-item" >
-            <h2 id="experience-date">July 2020 - May 2022</h2>
+          <div id="experience-item">
+            <h2 id="experience-date">July 2020 - May 2021</h2>
             <div>
               <h2>Mindgears Technology - Jr. Developer </h2>
               <p>
-                Developed, deployed and maintained the in-house .NET application
-                using C#, OOP, SAP, and SharePoint within the Agile Development
-                Framework. Collaborated daily with clients, providing technical
-                support and leveraging technological expertise. Assisted in
-                testing and debugging procedures, ensuring seamless
-                functionality of the .NET application. Contributed actively in a
-                collaborative team environment utilizing Azure and Git for
-                project management and version control.
+                Contributed to the development and maintenance of web
+                applications: Assisted in coding, testing, and debugging
+                web-based projects using HTML, CSS, JavaScript, and various
+                frameworks, ensuring alignment with project specifications and
+                standards. Collaborated within a team to troubleshoot and
+                resolve technical issues: Actively participated in identifying
+                and resolving bugs, conducting tests, and implementing
+                enhancements, fostering a collaborative environment to deliver
+                high-quality web solutions.
               </p>
               <div id="skillset">
-                <p>C#</p>
-                <p>.Net</p>
+                <p>HTML</p>
+                <p>CSS</p>
                 <p>Sharepoint</p>
                 <p>Git</p>
+                <p>Tailwind</p>
               </div>
             </div>
           </div>
@@ -85,7 +87,7 @@ export const About = () => {
       <div className="container">
         <h1 id="education">Education</h1>
         <div id="experience-section" className="flex flex-col ">
-          <div id="experience-item" >
+          <div id="experience-item">
             <h2 id="experience-date">September 2022 - August 2023</h2>
             <div>
               <h2>George Brown College - Mobile Application Development </h2>
@@ -105,12 +107,10 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div id="experience-item" >
+          <div id="experience-item">
             <h2 id="experience-date">July 2020 - May 2022</h2>
             <div>
-              <h2>
-                Seneca College - Project Management in IT{" "}
-              </h2>
+              <h2>Seneca College - Project Management in IT </h2>
               <p>
                 Acquired a comprehensive understanding of project management
                 principles and methodologies within the IT industry. Applied
@@ -126,12 +126,10 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div id="experience-item" >
+          <div id="experience-item">
             <h2 id="experience-date">May 2018 - June 2021</h2>
             <div>
-              <h2>
-                VNSGU - Bachelors in Computer Applications{" "}
-              </h2>
+              <h2>VNSGU - Bachelors in Computer Applications </h2>
               <p>
                 Established a solid foundation in computer science, encompassing
                 data structures, algorithms, and database management using Java,

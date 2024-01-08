@@ -9,8 +9,8 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex sticky top-1 z-3 items-center justify-center  mx-auto text-white">
-      <ul className="flex backdrop-blur text-xs rounded-3xl ">
+    <div className="flex fixed top-3 z-3 items-center justify-center w-[100%] mt-3 mx-auto text-white">
+      <ul className="nav-container  flex  text-xs rounded-3xl ">
         <li className="navBarItem">
           <div className={currentTab === "home" ? "selectedNavBarItem" : ""}>
             <Link
