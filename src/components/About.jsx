@@ -150,7 +150,7 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <h1>Projects</h1>
         <div className="grid grid-cols-3">
           <a
@@ -183,7 +183,7 @@ export const About = () => {
             </h2>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
