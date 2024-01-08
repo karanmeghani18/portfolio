@@ -9,9 +9,9 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex sticky top-4 z-50 items-center justify-center h-24  mx-auto text-white">
-      <ul className="flex backdrop-blur text-xs rounded-3xl focus:scroll-auto">
-        <li className="navBarItem  p-1">
+    <div className="flex sticky top-1 z-3 items-center justify-center  mx-auto text-white">
+      <ul className="flex backdrop-blur text-xs rounded-3xl ">
+        <li className="navBarItem">
           <div className={currentTab === "home" ? "selectedNavBarItem" : ""}>
             <Link
               to="home"
@@ -23,7 +23,7 @@ export const Navbar = () => {
             </Link>
           </div>
         </li>
-        <li className="navBarItem   p-1">
+        <li className="navBarItem">
           <div className={currentTab === "about" ? "selectedNavBarItem" : ""}>
             <Link
               to="about"
@@ -35,7 +35,7 @@ export const Navbar = () => {
             </Link>
           </div>
         </li>
-        <li className="navBarItem   p-1">
+        <li className="navBarItem">
           <div
             className={currentTab === "experience" ? "selectedNavBarItem" : ""}
           >
@@ -49,7 +49,7 @@ export const Navbar = () => {
             </Link>
           </div>
         </li>
-        <li className="navBarItem   p-1">
+        <li className="navBarItem">
           <div className={currentTab === "work" ? "selectedNavBarItem" : ""}>
             <Link
               to="work"
@@ -61,7 +61,7 @@ export const Navbar = () => {
             </Link>
           </div>
         </li>
-        <li className="navBarItem   p-1">
+        <li className="navBarItem">
           <div className={currentTab === "contact" ? "selectedNavBarItem" : ""}>
             <Link
               to="contact"

@@ -5,9 +5,10 @@
 
 body {
 letter-spacing: 1px;
-font-weight: 300;
-background-color: var(--black-color);
-color: var(--text-color);
+font-weight: 200;
+
+/* background-color: var(--black-color); */
+/* color: var(--text-color); */
 /* transition: all .2s ease; */
 }
 * {
@@ -17,16 +18,36 @@ color: var(--text-color);
     color: #cbcbcb;
     
     }
-
-    h2{
-      font-weight: 700;
+    h1{
+      font-weight: 400;
+      color: white;
+      padding-bottom: 2vw;
     }
-    #skillset{
+    h2{
+      font-weight: 300;
+      color: white;
+      /* display: block;
+      padding-bottom: 1.5vw; */
+
+    }
+
+    .container{
+      padding-left:  5vw;
+      padding-right: 5vw;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      max-width: fit-content;
+      display: block;
+      
+      
+    }
+#skillset{
       flex-wrap: wrap;
+      display: flex;;
     }
 #skillset p {
-  margin: 5px;
-  
+  margin: 0.4em;
+  font-size: smaller;
   padding: 8px;
   color: #cbcbcb;
   border-radius: 2px;
@@ -36,62 +57,60 @@ color: var(--text-color);
 }
 
 #experience-date{
-  width: 200px;
-  margin-right: 2px;
+  /* width: 200vw; */
+  font-weight: 300;
+  flex-direction: row;
+  color: #cbcbcb;
 }
-        
+#experience-section{
+  display: flex;
+  flex-direction: column;
+  
+}
+
 #experience-item{
-  /* margin: 8px; */
+display: flex;
+flex-direction: column;
+margin-bottom: 4em;
+border-bottom: 1px #333333 dotted;
+border-width: 80;
 }
 
 #about-technologies{
   display: flex;
 }
-#project-card{
-  padding: 30px;
-  display: flex;
-  border: 1px solid #2d2d2d;
-  border-radius: 3px;
-  box-shadow: 0 2px 3px #0000003d;
-  transition: border .2s ease;
-  background-color: #1c1c1c;
-  position: relative;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
+
 .navBarItem {
   /* Set default padding */
-  padding: 10px; /* Adjust this value as needed */
+  padding: 1.5vw; /* Adjust this value as needed */
+  cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  /* Adjust padding for smaller screens */
+/* @media screen and (max-width: 768px) {
   .navBarItem {
-    padding: 8px; /* Adjust this value as needed for smaller screens */
+    padding: 8px; 
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* Further adjust padding for even smaller screens */
+  
   .navBarItem {
-    padding: 6px; /* Adjust this value as needed for smaller screens */
+    padding: 6px; 
   }
-}
+} */
 
 .selectedNavBarItem{
   padding: 10px;
   display: inline;
   background-color: #5c5c5c40;
   border-radius: 18px;
-  transition: background-color 0.9s ease-in-out ; /* Define the transition property */
+  transition: background-color 0.5s ease-in-out ; 
 
 }
 
-.animate-on-scroll {
-  opacity: 0; /* Initially hide the element */
-  transition: opacity 0.5s ease-in-out; /* Apply transition effect */
-}
-.show-on-scroll {
-  opacity: 1; /* Show the element when scrolled into view */
-}
+
+
+
+
+
+
