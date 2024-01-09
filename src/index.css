@@ -38,7 +38,7 @@ font-weight: 200;
       padding-top: 2vw;
       padding-bottom: 2vw;
       max-width: fit-content;
-      display: block;
+      /* display: block; */
       gap: 8px;
     }
     .nav-container{
@@ -48,18 +48,31 @@ font-weight: 200;
       backdrop-filter: blur(15px);
       }
     
-#skillset{
+#skillset, #skillset-main{
       flex-wrap: wrap;
       display: flex;;
+    }
+
+    #skillset-main p {
+      margin: 3px;
+      font-size: smaller;
+      padding: 4px;
+      color: #cbcbcb;
+      border-radius: 2px;
+      border: 1px solid #333333;
+      background-color: #232323;
+      font-weight: 400;
+      box-shadow: 0 2px 3px #0000003d;
     }
 #skillset p {
   margin: 3px;
   font-size: smaller;
   padding: 4px;
-  color: #cbcbcb;
+  color: #a631ff;
   border-radius: 2px;
-  border: 1px solid #333333;
-  background-color: #232323;
+  border: 1px solid #a631ff;
+  background-color: #181818;
+  font-weight: 400;
   box-shadow: 0 2px 3px #0000003d;
 }
 
@@ -116,9 +129,20 @@ margin-bottom: 14px;
 
 }
 
+.work-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: start; */
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #2d2d2d;
+    transition: border .2s ease;
+    font-size: 14px;
+    height: 150px;
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 3px #0000003d;
 
-
-
-
-
+}
 

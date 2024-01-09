@@ -17,7 +17,7 @@ export const About = () => {
       </div>
       <div className="container">
         <h1>Skillset</h1>
-        <div id="skillset" className="pb-4">
+        <div id="skillset-main" className="pb-4">
           <p>React</p>
           <p>Next.js</p>
           <p>Javascript</p>
@@ -148,40 +148,21 @@ export const About = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <h1>Projects</h1>
-        <div className="grid grid-cols-3">
+      <div className="container">
+        <h1>Work</h1>
+        <div className="flex flex-row">
           <a
-            href="#"
-            class="block max-w-sm p-6 m-[8%] bg-black border border-gray-200 rounded-lg shadow
-           hover:bg-black dark:bg-[#1c1c1c] dark:border-[#2c2c2c] dark:hover:bg-gray-700"
+            className="work-item flex flex-col"
+            href="https://www.karanmeghani.tech"
           >
-            <h2 class="mb-2  text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Waiter's Wallet
-            </h2>
+            Waiters Wallet
+          </a>
+          <a className="work-item" href="https://www.karanmeghani.tech">
+            Waiters Wallet
           </a>
 
-          <a
-            href="#"
-            class="block max-w-sm p-6 m-[8%] bg-white border border-gray-200 rounded-lg shadow
-           hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Waiter's Wallet
-            </h2>
-          </a>
-
-          <a
-            href="#"
-            class="block max-w-sm p-6 m-[8%] bg-white border border-gray-200 rounded-lg shadow
-           hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Waiter's Wallet
-            </h2>
-          </a>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
